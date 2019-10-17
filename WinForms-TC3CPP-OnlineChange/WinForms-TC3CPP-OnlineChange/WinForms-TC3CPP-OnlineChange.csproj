@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DAE1744F-639E-4C70-9762-26DC8FFCAC0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WinForms_TC3CPP_OnlineChange</RootNamespace>
+    <AssemblyName>WinForms-TC3CPP-OnlineChange</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SandDock, Version=3.0.6.1, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TwinCAT.Ads, Version=4.3.0.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Beckhoff.TwinCAT.Ads.4.3.10\lib\Net40-full\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Measurement.ProjectBase, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Measurement.ProjectBase.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Measurement.Scope.API, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Measurement.Scope.API.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Measurement.Scope.Control, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Measurement.Scope.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.Charting.ChartControlLib_DX, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.Charting.ChartControlLib_DX.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.Charting.ChartControlLib_GDI, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.Charting.ChartControlLib_GDI.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.Charting.ChartingBase, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.Charting.ChartingBase.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.Communications, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.Communications.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.Export.Diadem, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.Export.Diadem.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.ScopeClient, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.ScopeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.Tools, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Scope2.View.Control, Version=3.4.3142.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Scope2.View.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.SupportInfoReport, Version=1.3.15.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.SupportInfoReport.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.SupportInfoReport.Definition, Version=1.3.0.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.SupportInfoReport.Definition.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.SystemService, Version=3.2.0.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.SystemService.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.TargetBrowser.Control, Version=1.0.20.2, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.TargetBrowser.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.TargetBrowser.Definition, Version=1.0.4.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.TargetBrowser.Definition.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.TargetBrowser.Package.Definition, Version=1.0.1.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.TargetBrowser.Package.Definition.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.TargetBrowser.Utilities, Version=1.0.10.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.TargetBrowser.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Utilities, Version=3.2.0.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\TwinCAT\Functions\TE130x-Scope-View\Redist\TwinCAT.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

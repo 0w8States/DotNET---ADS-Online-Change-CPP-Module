@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass">
+  <Vendor>
+    <Name>C++ Module Vendor</Name>
+  </Vendor>
+  <DataTypes>
+    <DataType>
+      <Name GUID="{e760036d-c10d-43f8-bec9-170fbf97fe62}">E_FourierType</Name>
+      <BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+      <EnumInfo>
+        <Text><![CDATA[Square]]></Text>
+        <Enum>0</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Sawtooth]]></Text>
+        <Enum>1</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Triangle]]></Text>
+        <Enum>2</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Fibonacci]]></Text>
+        <Enum>3</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Pulse]]></Text>
+        <Enum>4</Enum>
+      </EnumInfo>
+    </DataType>
+  </DataTypes>
+  <Groups>
+    <Group SortOrder="701">
+      <Name>C++</Name>
+      <DisplayName>C++ Modules</DisplayName>
+    </Group>
+  </Groups>
+  <Modules>
+    <Module GUID="{396d8d12-68dd-4afa-b8f5-130033e74231}" Group="C++">
+      <Name>SignalsDemo</Name>
+      <CLSID ClassFactory="CPPVP1">{1cff1d80-18db-2a28-9329-4a07aafd611d}</CLSID>
+      <Licenses>
+        <License>
+          <LicenseId>{304D006A-8299-4560-AB79-438534B50288}</LicenseId>
+          <Comment>TC3 C++</Comment>
+        </License>
+      </Licenses>
+      <InitSequence>PSO</InitSequence>
+      <Contexts>
+        <Context>
+          <Id>1</Id>
+        </Context>
+      </Contexts>
+      <Interfaces>
+        <Interface DisableCodeGeneration="true">
+          <Type GUID="{00000012-0000-0000-E000-000000000064}">ITComObject</Type>
+        </Interface>
+        <Interface>
+          <Type GUID="{d28a8cd2-5477-4b75-af0f-998841af9e44}">ITComOnlineChange</Type>
+        </Interface>
+        <Interface>
+          <Type GUID="{03000010-0000-0000-E000-000000000064}">ITcCyclic</Type>
+        </Interface>
+      </Interfaces>
+      <Parameters>
+        <Group Collapsed="true">TmcModuleHandler</Group>
+        <Parameter Group="TmcModuleHandler" HideParameter="true" DisableCodeGeneration="true">
+          <Name>DataAreas</Name>
+          <BaseType GUID="{C636B456-B483-42A5-BD8A-58753433F375}" Namespace="IO">TcIoDataAreaSize</BaseType>
+          <ArrayInfo>
+            <LBound>0</LBound>
+            <Elements Min="0" MaxUnbounded="true">1</Elements>
+          </ArrayInfo>
+          <PTCID>#x0300002A</PTCID>
+        </Parameter>
+        <Parameter Group="TmcModuleHandler" HideParameter="true" DisableCodeGeneration="true">
+          <Name>Contexts</Name>
+          <BaseType GUID="{18071995-0000-0000-0000-00000000000F}">OTCID</BaseType>
+          <ArrayInfo>
+            <LBound>0</LBound>
+            <Elements Min="0" MaxUnbounded="true">1</Elements>
+          </ArrayInfo>
+          <PTCID>#x03002201</PTCID>
+        </Parameter>
+        <Parameter Group="TmcModuleHandler" HideParameter="true" DisableCodeGeneration="true">
+          <Name>SortOrders</Name>
+          <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
+          <ArrayInfo>
+            <LBound>0</LBound>
+            <Elements Min="0" MaxUnbounded="true">1</Elements>
+          </ArrayInfo>
+          <PTCID>#x03002204</PTCID>
+        </Parameter>
+        <Parameter Group="TmcModuleHandler" HideParameter="true" DisableCodeGeneration="true">
+          <Name>LibraryId</Name>
+          <BaseType>STRING(127)</BaseType>
+          <Default>
+            <String>C++ Module Vendor|CPPVP1|1.0.0.1</String>
+          </Default>
+          <PTCID>#x03002119</PTCID>
+        </Parameter>
+        <Parameter Group="TmcModuleHandler" HideParameter="true" DisableCodeGeneration="true">
+          <Name>ModuleClsId</Name>
+          <BaseType GUID="{18071995-0000-0000-0000-000000000021}">GUID</BaseType>
+          <Default>
+            <GUID>{396d8d12-68dd-4afa-b8f5-130033e74231}</GUID>
+          </Default>
+          <PTCID>#x0300211A</PTCID>
+        </Parameter>
+        <Parameter>
+          <Name>TraceLevelMax</Name>
+          <Comment>Controls the amount of log messages.</Comment>
+          <BaseType GUID="{8007ae3b-86bb-40f2-b385-ef87fcc239a4}">TcTraceLevel</BaseType>
+          <PTCID>#x03002103</PTCID>
+          <ContextId>1</ContextId>
+        </Parameter>
+        <Parameter>
+          <Name>Parameter</Name>
+          <SubItem>
+            <Name>data1</Name>
+            <Type GUID="{18071995-0000-0000-0000-000000000008}">UDINT</Type>
+          </SubItem>
+          <SubItem>
+            <Name>data2</Name>
+            <Type GUID="{18071995-0000-0000-0000-000000000008}">UDINT</Type>
+          </SubItem>
+          <SubItem>
+            <Name>data3</Name>
+            <Type GUID="{18071995-0000-0000-0000-00000000000e}">LREAL</Type>
+          </SubItem>
+          <PTCID>#x00000001</PTCID>
+          <ContextId>1</ContextId>
+        </Parameter>
+      </Parameters>
+      <DataAreas>
+        <DataArea>
+          <AreaNo AreaType="OutputSrc">1</AreaNo>
+          <Name>Outputs</Name>
+          <ContextId>1</ContextId>
+          <Symbol>
+            <Name>Value</Name>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000e}">LREAL</BaseType>
+          </Symbol>
+          <Symbol>
+            <Name>TaskCycleTime</Name>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000008}">UDINT</BaseType>
+          </Symbol>
+        </DataArea>
+      </DataAreas>
+      <InterfacePointers />
+      <DataPointers />
+      <Deployment />
+    </Module>
+  </Modules>
+  <Library>
+    <Name>CPPVP1</Name>
+    <Version>0.0.0.5</Version>
+  </Library>
+</TcModuleClass>

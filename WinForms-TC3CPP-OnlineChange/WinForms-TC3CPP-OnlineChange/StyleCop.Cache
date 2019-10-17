@@ -1,0 +1,2632 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="291032260">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/10/16 15:38:50.472</styleCop>
+      <settingsFile>2019/10/16 15:38:50.452</settingsFile>
+      <sourceFile>2019/10/15 10:55:30.021</sourceFile>
+      <parser>2019/10/16 15:38:50.472</parser>
+      <StyleCop.CSharp.DocumentationRules>2019/10/16 15:38:50.472</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1871068100</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2019/10/16 15:38:50.472</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/10/16 15:38:50.472</styleCop>
+      <settingsFile>2019/10/16 15:38:50.452</settingsFile>
+      <sourceFile>2019/10/15 10:18:30.245</sourceFile>
+      <parser>2019/10/16 15:38:50.472</parser>
+      <StyleCop.CSharp.DocumentationRules>2019/10/16 15:38:50.472</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1871068100</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2019/10/16 15:38:50.472</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/10/16 15:38:50.472</styleCop>
+      <settingsFile>2019/10/16 15:38:50.452</settingsFile>
+      <sourceFile>2019/10/15 10:18:30.293</sourceFile>
+      <parser>2019/10/16 15:38:50.472</parser>
+      <StyleCop.CSharp.DocumentationRules>2019/10/16 15:38:50.472</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1871068100</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2019/10/16 15:38:50.472</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Form1.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/10/16 15:38:50.472</styleCop>
+      <settingsFile>2019/10/16 15:38:50.452</settingsFile>
+      <sourceFile>2019/10/16 15:56:39.716</sourceFile>
+      <parser>2019/10/16 15:38:50.472</parser>
+      <StyleCop.CSharp.DocumentationRules>2019/10/16 15:38:50.472</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1871068100</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2019/10/16 15:38:50.472</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>105</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>49</line>
+        <index>2316</index>
+        <endIndex>2336</endIndex>
+        <startLine>49</startLine>
+        <startColumn>67</startColumn>
+        <endLine>49</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>43</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'tcClient' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>43</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ConstantsMustAppearBeforeFields" ruleCheckId="SA1203">
+        <context>All constants must be placed before all non-constants.</context>
+        <line>68</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>44</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'tcClientTaskValues' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>44</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>45</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>46</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>47</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>48</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>49</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotContainUnderscore" ruleCheckId="SA1310">
+        <context>Field names must not contain underscores.</context>
+        <line>49</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>50</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotContainUnderscore" ruleCheckId="SA1310">
+        <context>Field names must not contain underscores.</context>
+        <line>50</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>51</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotContainUnderscore" ruleCheckId="SA1310">
+        <context>Field names must not contain underscores.</context>
+        <line>51</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'tcCOM_indexGroup' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>51</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'uint' rather than UInt32 or System.UInt32.</context>
+        <line>51</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>52</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotContainUnderscore" ruleCheckId="SA1310">
+        <context>Field names must not contain underscores.</context>
+        <line>52</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'tcCOM_indexOffset' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>52</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'uint' rather than UInt32 or System.UInt32.</context>
+        <line>52</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>53</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotContainUnderscore" ruleCheckId="SA1310">
+        <context>Field names must not contain underscores.</context>
+        <line>53</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'uint' rather than UInt32 or System.UInt32.</context>
+        <line>53</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>54</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotContainUnderscore" ruleCheckId="SA1310">
+        <context>Field names must not contain underscores.</context>
+        <line>54</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'uint' rather than UInt32 or System.UInt32.</context>
+        <line>54</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>57</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>57</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>58</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>58</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>59</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>59</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>60</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>60</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>61</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>61</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>62</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The field must have an access modifier.</context>
+        <line>62</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>65</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: RouteName.</context>
+        <line>65</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>66</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: RouteAddress.</context>
+        <line>66</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>67</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: RouteNetId.</context>
+        <line>67</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>68</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>71</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>73</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to InitializeComponent must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>76</line>
+        <index>3305</index>
+        <endIndex>3323</endIndex>
+        <startLine>76</startLine>
+        <startColumn>13</startColumn>
+        <endLine>76</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to XML_ADS_Parser must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>77</line>
+        <index>3341</index>
+        <endIndex>3354</endIndex>
+        <startLine>77</startLine>
+        <startColumn>13</startColumn>
+        <endLine>77</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to UI_Disconnected must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>78</line>
+        <index>3372</index>
+        <endIndex>3386</endIndex>
+        <startLine>78</startLine>
+        <startColumn>13</startColumn>
+        <endLine>78</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>79</line>
+        <index>3404</index>
+        <endIndex>3420</endIndex>
+        <startLine>79</startLine>
+        <startColumn>13</startColumn>
+        <endLine>79</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to chart must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>80</line>
+        <index>3470</index>
+        <endIndex>3474</endIndex>
+        <startLine>80</startLine>
+        <startColumn>13</startColumn>
+        <endLine>80</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to axisGroup must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>81</line>
+        <index>3506</index>
+        <endIndex>3514</endIndex>
+        <startLine>81</startLine>
+        <startColumn>13</startColumn>
+        <endLine>81</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to channel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>82</line>
+        <index>3548</index>
+        <endIndex>3554</endIndex>
+        <startLine>82</startLine>
+        <startColumn>13</startColumn>
+        <endLine>82</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to acquisitionInterpreter must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>83</line>
+        <index>3586</index>
+        <endIndex>3607</endIndex>
+        <startLine>83</startLine>
+        <startColumn>13</startColumn>
+        <endLine>83</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>84</line>
+        <index>3654</index>
+        <endIndex>3667</endIndex>
+        <startLine>84</startLine>
+        <startColumn>13</startColumn>
+        <endLine>84</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to style must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>85</line>
+        <index>3706</index>
+        <endIndex>3710</endIndex>
+        <startLine>85</startLine>
+        <startColumn>13</startColumn>
+        <endLine>85</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>88</line>
+        <index>3780</index>
+        <endIndex>3795</endIndex>
+        <startLine>88</startLine>
+        <startColumn>13</startColumn>
+        <endLine>88</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnAdsConnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>89</line>
+        <index>3873</index>
+        <endIndex>3885</endIndex>
+        <startLine>89</startLine>
+        <startColumn>13</startColumn>
+        <endLine>89</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnAdsDisconnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>90</line>
+        <index>3950</index>
+        <endIndex>3965</endIndex>
+        <startLine>90</startLine>
+        <startColumn>13</startColumn>
+        <endLine>90</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer1 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>91</line>
+        <index>4033</index>
+        <endIndex>4044</endIndex>
+        <startLine>91</startLine>
+        <startColumn>13</startColumn>
+        <endLine>91</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer2 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>92</line>
+        <index>4108</index>
+        <endIndex>4119</endIndex>
+        <startLine>92</startLine>
+        <startColumn>13</startColumn>
+        <endLine>92</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer3 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>93</line>
+        <index>4183</index>
+        <endIndex>4194</endIndex>
+        <startLine>93</startLine>
+        <startColumn>13</startColumn>
+        <endLine>93</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer4 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>94</line>
+        <index>4258</index>
+        <endIndex>4269</endIndex>
+        <startLine>94</startLine>
+        <startColumn>13</startColumn>
+        <endLine>94</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer5 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>95</line>
+        <index>4333</index>
+        <endIndex>4344</endIndex>
+        <startLine>95</startLine>
+        <startColumn>13</startColumn>
+        <endLine>95</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnExit must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>96</line>
+        <index>4408</index>
+        <endIndex>4414</endIndex>
+        <startLine>96</startLine>
+        <startColumn>13</startColumn>
+        <endLine>96</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>99</line>
+        <index>4519</index>
+        <endIndex>4535</endIndex>
+        <startLine>99</startLine>
+        <startColumn>13</startColumn>
+        <endLine>99</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to chart must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>99</line>
+        <index>4560</index>
+        <endIndex>4564</endIndex>
+        <startLine>99</startLine>
+        <startColumn>54</startColumn>
+        <endLine>99</endLine>
+        <endColumn>58</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to chart must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>100</line>
+        <index>4581</index>
+        <endIndex>4585</endIndex>
+        <startLine>100</startLine>
+        <startColumn>13</startColumn>
+        <endLine>100</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to axisGroup must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>100</line>
+        <index>4597</index>
+        <endIndex>4605</endIndex>
+        <startLine>100</startLine>
+        <startColumn>29</startColumn>
+        <endLine>100</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to axisGroup must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>101</line>
+        <index>4622</index>
+        <endIndex>4630</endIndex>
+        <startLine>101</startLine>
+        <startColumn>13</startColumn>
+        <endLine>101</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to channel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>101</line>
+        <index>4642</index>
+        <endIndex>4648</endIndex>
+        <startLine>101</startLine>
+        <startColumn>33</startColumn>
+        <endLine>101</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to FormBorderStyle must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>102</line>
+        <index>4665</index>
+        <endIndex>4679</endIndex>
+        <startLine>102</startLine>
+        <startColumn>13</startColumn>
+        <endLine>102</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>106</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteName must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>114</line>
+        <index>5040</index>
+        <endIndex>5048</endIndex>
+        <startLine>114</startLine>
+        <startColumn>17</startColumn>
+        <endLine>114</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteAddress must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>115</line>
+        <index>5106</index>
+        <endIndex>5117</endIndex>
+        <startLine>115</startLine>
+        <startColumn>17</startColumn>
+        <endLine>115</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteNetId must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>116</line>
+        <index>5178</index>
+        <endIndex>5187</endIndex>
+        <startLine>116</startLine>
+        <startColumn>17</startColumn>
+        <endLine>116</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>123</line>
+        <index>5455</index>
+        <endIndex>5472</endIndex>
+        <startLine>123</startLine>
+        <startColumn>25</startColumn>
+        <endLine>123</endLine>
+        <endColumn>42</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteName must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>123</line>
+        <index>5484</index>
+        <endIndex>5492</endIndex>
+        <startLine>123</startLine>
+        <startColumn>54</startColumn>
+        <endLine>123</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteName must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>121</line>
+        <index>5372</index>
+        <endIndex>5380</endIndex>
+        <startLine>121</startLine>
+        <startColumn>25</startColumn>
+        <endLine>121</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteName must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>119</line>
+        <index>5306</index>
+        <endIndex>5314</endIndex>
+        <startLine>119</startLine>
+        <startColumn>37</startColumn>
+        <endLine>119</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>129</line>
+        <index>5650</index>
+        <endIndex>5667</endIndex>
+        <startLine>129</startLine>
+        <startColumn>21</startColumn>
+        <endLine>129</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>130</line>
+        <index>5709</index>
+        <endIndex>5724</endIndex>
+        <startLine>130</startLine>
+        <startColumn>21</startColumn>
+        <endLine>130</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>127</line>
+        <index>5574</index>
+        <endIndex>5591</endIndex>
+        <startLine>127</startLine>
+        <startColumn>21</startColumn>
+        <endLine>127</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>137</line>
+        <index>6091</index>
+        <endIndex>6108</endIndex>
+        <startLine>137</startLine>
+        <startColumn>17</startColumn>
+        <endLine>137</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>138</line>
+        <index>6144</index>
+        <endIndex>6161</endIndex>
+        <startLine>138</startLine>
+        <startColumn>17</startColumn>
+        <endLine>138</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>142</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>145</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the else statement must be wrapped in opening and closing curly brackets.</context>
+        <line>147</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>145</line>
+        <index>6343</index>
+        <endIndex>6360</endIndex>
+        <startLine>145</startLine>
+        <startColumn>17</startColumn>
+        <endLine>145</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>144</line>
+        <index>6300</index>
+        <endIndex>6315</endIndex>
+        <startLine>144</startLine>
+        <startColumn>17</startColumn>
+        <endLine>144</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>147</line>
+        <index>6414</index>
+        <endIndex>6431</endIndex>
+        <startLine>147</startLine>
+        <startColumn>17</startColumn>
+        <endLine>147</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>149</line>
+        <index>6464</index>
+        <endIndex>6481</endIndex>
+        <startLine>149</startLine>
+        <startColumn>13</startColumn>
+        <endLine>149</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>142</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>152</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>159</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>154</line>
+        <index>6597</index>
+        <endIndex>6604</endIndex>
+        <startLine>154</startLine>
+        <startColumn>13</startColumn>
+        <endLine>154</endLine>
+        <endColumn>20</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClientTaskValues must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>155</line>
+        <index>6640</index>
+        <endIndex>6657</endIndex>
+        <startLine>155</startLine>
+        <startColumn>13</startColumn>
+        <endLine>155</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to readStream must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>156</line>
+        <index>6693</index>
+        <endIndex>6702</endIndex>
+        <startLine>156</startLine>
+        <startColumn>13</startColumn>
+        <endLine>156</endLine>
+        <endColumn>22</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to reader must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>157</line>
+        <index>6750</index>
+        <endIndex>6755</endIndex>
+        <startLine>157</startLine>
+        <startColumn>13</startColumn>
+        <endLine>157</endLine>
+        <endColumn>18</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to readStream must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>157</line>
+        <index>6779</index>
+        <endIndex>6788</endIndex>
+        <startLine>157</startLine>
+        <startColumn>42</startColumn>
+        <endLine>157</endLine>
+        <endColumn>51</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTcCom must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>164</line>
+        <index>6915</index>
+        <endIndex>6929</endIndex>
+        <startLine>164</startLine>
+        <startColumn>21</startColumn>
+        <endLine>164</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTask must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>165</line>
+        <index>6974</index>
+        <endIndex>6987</endIndex>
+        <startLine>165</startLine>
+        <startColumn>21</startColumn>
+        <endLine>165</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>166</line>
+        <index>7033</index>
+        <endIndex>7040</endIndex>
+        <startLine>166</startLine>
+        <startColumn>21</startColumn>
+        <endLine>166</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClientTaskValues must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>167</line>
+        <index>7076</index>
+        <endIndex>7093</endIndex>
+        <startLine>167</startLine>
+        <startColumn>21</startColumn>
+        <endLine>167</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>162</line>
+        <index>6849</index>
+        <endIndex>6864</endIndex>
+        <startLine>162</startLine>
+        <startColumn>21</startColumn>
+        <endLine>162</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTcCom must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>171</line>
+        <index>7190</index>
+        <endIndex>7204</endIndex>
+        <startLine>171</startLine>
+        <startColumn>21</startColumn>
+        <endLine>171</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteNetId must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>171</line>
+        <index>7223</index>
+        <endIndex>7232</endIndex>
+        <startLine>171</startLine>
+        <startColumn>54</startColumn>
+        <endLine>171</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>171</line>
+        <index>7234</index>
+        <endIndex>7251</endIndex>
+        <startLine>171</startLine>
+        <startColumn>65</startColumn>
+        <endLine>171</endLine>
+        <endColumn>82</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTask must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>172</line>
+        <index>7305</index>
+        <endIndex>7318</endIndex>
+        <startLine>172</startLine>
+        <startColumn>21</startColumn>
+        <endLine>172</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RouteNetId must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>172</line>
+        <index>7337</index>
+        <endIndex>7346</endIndex>
+        <startLine>172</startLine>
+        <startColumn>53</startColumn>
+        <endLine>172</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>172</line>
+        <index>7348</index>
+        <endIndex>7365</endIndex>
+        <startLine>172</startLine>
+        <startColumn>64</startColumn>
+        <endLine>172</endLine>
+        <endColumn>81</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>173</line>
+        <index>7420</index>
+        <endIndex>7427</endIndex>
+        <startLine>173</startLine>
+        <startColumn>21</startColumn>
+        <endLine>173</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTcCom must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>173</line>
+        <index>7437</index>
+        <endIndex>7451</endIndex>
+        <startLine>173</startLine>
+        <startColumn>38</startColumn>
+        <endLine>173</endLine>
+        <endColumn>52</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClientTaskValues must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>174</line>
+        <index>7476</index>
+        <endIndex>7493</endIndex>
+        <startLine>174</startLine>
+        <startColumn>21</startColumn>
+        <endLine>174</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTask must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>174</line>
+        <index>7503</index>
+        <endIndex>7516</endIndex>
+        <startLine>174</startLine>
+        <startColumn>48</startColumn>
+        <endLine>174</endLine>
+        <endColumn>61</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>178</line>
+        <index>7629</index>
+        <endIndex>7636</endIndex>
+        <startLine>178</startLine>
+        <startColumn>39</startColumn>
+        <endLine>178</endLine>
+        <endColumn>46</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>152</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>193</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>193</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>198</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>201</line>
+        <index>8428</index>
+        <endIndex>8441</endIndex>
+        <startLine>201</startLine>
+        <startColumn>13</startColumn>
+        <endLine>201</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to amsAddressTask must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>201</line>
+        <index>8454</index>
+        <endIndex>8467</endIndex>
+        <startLine>201</startLine>
+        <startColumn>39</startColumn>
+        <endLine>201</endLine>
+        <endColumn>52</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>202</line>
+        <index>8489</index>
+        <endIndex>8502</endIndex>
+        <startLine>202</startLine>
+        <startColumn>13</startColumn>
+        <endLine>202</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>203</line>
+        <index>8535</index>
+        <endIndex>8548</endIndex>
+        <startLine>203</startLine>
+        <startColumn>13</startColumn>
+        <endLine>203</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>204</line>
+        <index>8583</index>
+        <endIndex>8596</endIndex>
+        <startLine>204</startLine>
+        <startColumn>13</startColumn>
+        <endLine>204</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>205</line>
+        <index>8663</index>
+        <endIndex>8676</endIndex>
+        <startLine>205</startLine>
+        <startColumn>13</startColumn>
+        <endLine>205</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>206</line>
+        <index>8767</index>
+        <endIndex>8780</endIndex>
+        <startLine>206</startLine>
+        <startColumn>13</startColumn>
+        <endLine>206</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to acquisitionInterpreter must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>207</line>
+        <index>8851</index>
+        <endIndex>8872</endIndex>
+        <startLine>207</startLine>
+        <startColumn>13</startColumn>
+        <endLine>207</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to adsAcquisition must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>207</line>
+        <index>8888</index>
+        <endIndex>8901</endIndex>
+        <startLine>207</startLine>
+        <startColumn>50</startColumn>
+        <endLine>207</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to channel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>208</line>
+        <index>8917</index>
+        <endIndex>8923</endIndex>
+        <startLine>208</startLine>
+        <startColumn>13</startColumn>
+        <endLine>208</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to acquisitionInterpreter must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>208</line>
+        <index>8935</index>
+        <endIndex>8956</endIndex>
+        <startLine>208</startLine>
+        <startColumn>31</startColumn>
+        <endLine>208</endLine>
+        <endColumn>52</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>200</line>
+        <index>8367</index>
+        <endIndex>8413</endIndex>
+        <startLine>200</startLine>
+        <startColumn>13</startColumn>
+        <endLine>200</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>211</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to style must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>213</line>
+        <index>9080</index>
+        <endIndex>9084</endIndex>
+        <startLine>213</startLine>
+        <startColumn>13</startColumn>
+        <endLine>213</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to channel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>213</line>
+        <index>9088</index>
+        <endIndex>9094</endIndex>
+        <startLine>213</startLine>
+        <startColumn>21</startColumn>
+        <endLine>213</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to channel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>214</line>
+        <index>9191</index>
+        <endIndex>9197</endIndex>
+        <startLine>214</startLine>
+        <startColumn>13</startColumn>
+        <endLine>214</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to style must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>215</line>
+        <index>9241</index>
+        <endIndex>9245</endIndex>
+        <startLine>215</startLine>
+        <startColumn>13</startColumn>
+        <endLine>215</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to style must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>216</line>
+        <index>9289</index>
+        <endIndex>9293</endIndex>
+        <startLine>216</startLine>
+        <startColumn>13</startColumn>
+        <endLine>216</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to style must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>217</line>
+        <index>9333</index>
+        <endIndex>9337</endIndex>
+        <startLine>217</startLine>
+        <startColumn>13</startColumn>
+        <endLine>217</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>220</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>226</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>230</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParametersMustBeOnSameLineOrSeparateLines" ruleCheckId="SA1117">
+        <context>All method parameters must be placed on the same line, or each parameter must be placed on a separate line.</context>
+        <line>243</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="SplitParametersMustStartOnLineAfterDeclaration" ruleCheckId="SA1116">
+        <context>If the method parameters are on separate lines, the first parameter must begin on the line beneath the name of the method.</context>
+        <line>243</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="SA1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>243</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="SA1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>244</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>226</line>
+        <index>9621</index>
+        <endIndex>9637</endIndex>
+        <startLine>226</startLine>
+        <startColumn>21</startColumn>
+        <endLine>226</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>225</line>
+        <index>9503</index>
+        <endIndex>9519</endIndex>
+        <startLine>225</startLine>
+        <startColumn>21</startColumn>
+        <endLine>225</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>230</line>
+        <index>9840</index>
+        <endIndex>9856</endIndex>
+        <startLine>230</startLine>
+        <startColumn>21</startColumn>
+        <endLine>230</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>229</line>
+        <index>9721</index>
+        <endIndex>9737</endIndex>
+        <startLine>229</startLine>
+        <startColumn>21</startColumn>
+        <endLine>229</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>235</line>
+        <index>10110</index>
+        <endIndex>10126</endIndex>
+        <startLine>235</startLine>
+        <startColumn>45</startColumn>
+        <endLine>235</endLine>
+        <endColumn>61</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>233</line>
+        <index>9945</index>
+        <endIndex>9961</endIndex>
+        <startLine>233</startLine>
+        <startColumn>21</startColumn>
+        <endLine>233</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>224</line>
+        <index>9463</index>
+        <endIndex>9480</endIndex>
+        <startLine>224</startLine>
+        <startColumn>17</startColumn>
+        <endLine>224</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>228</line>
+        <index>9685</index>
+        <endIndex>9698</endIndex>
+        <startLine>228</startLine>
+        <startColumn>17</startColumn>
+        <endLine>228</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>232</line>
+        <index>9905</index>
+        <endIndex>9922</endIndex>
+        <startLine>232</startLine>
+        <startColumn>17</startColumn>
+        <endLine>232</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>248</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParametersMustBeOnSameLineOrSeparateLines" ruleCheckId="SA1117">
+        <context>All method parameters must be placed on the same line, or each parameter must be placed on a separate line.</context>
+        <line>259</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="SplitParametersMustStartOnLineAfterDeclaration" ruleCheckId="SA1116">
+        <context>If the method parameters are on separate lines, the first parameter must begin on the line beneath the name of the method.</context>
+        <line>259</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="SA1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>259</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="SA1115">
+        <context>The parameter must begin on the line after the previous parameter.</context>
+        <line>260</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>254</line>
+        <index>10750</index>
+        <endIndex>10766</endIndex>
+        <startLine>254</startLine>
+        <startColumn>21</startColumn>
+        <endLine>254</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to scopeProjectPanel must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>252</line>
+        <index>10612</index>
+        <endIndex>10628</endIndex>
+        <startLine>252</startLine>
+        <startColumn>21</startColumn>
+        <endLine>252</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>264</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>268</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to _writeTcComModuleVersion must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>266</line>
+        <index>11140</index>
+        <endIndex>11163</endIndex>
+        <startLine>266</startLine>
+        <startColumn>13</startColumn>
+        <endLine>266</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ChangeChannelSettings must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>267</line>
+        <index>11190</index>
+        <endIndex>11210</endIndex>
+        <startLine>267</startLine>
+        <startColumn>13</startColumn>
+        <endLine>267</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>264</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>269</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>269</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>273</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to _writeTcComModuleVersion must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>271</line>
+        <index>11344</index>
+        <endIndex>11367</endIndex>
+        <startLine>271</startLine>
+        <startColumn>13</startColumn>
+        <endLine>271</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ChangeChannelSettings must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>272</line>
+        <index>11394</index>
+        <endIndex>11414</endIndex>
+        <startLine>272</startLine>
+        <startColumn>13</startColumn>
+        <endLine>272</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>269</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>274</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>274</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>278</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to _writeTcComModuleVersion must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>276</line>
+        <index>11544</index>
+        <endIndex>11567</endIndex>
+        <startLine>276</startLine>
+        <startColumn>13</startColumn>
+        <endLine>276</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ChangeChannelSettings must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>277</line>
+        <index>11594</index>
+        <endIndex>11614</endIndex>
+        <startLine>277</startLine>
+        <startColumn>13</startColumn>
+        <endLine>277</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>274</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>279</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>279</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>283</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to _writeTcComModuleVersion must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>281</line>
+        <index>11746</index>
+        <endIndex>11769</endIndex>
+        <startLine>281</startLine>
+        <startColumn>13</startColumn>
+        <endLine>281</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ChangeChannelSettings must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>282</line>
+        <index>11796</index>
+        <endIndex>11816</endIndex>
+        <startLine>282</startLine>
+        <startColumn>13</startColumn>
+        <endLine>282</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>279</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>284</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>284</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>288</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to _writeTcComModuleVersion must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>286</line>
+        <index>11953</index>
+        <endIndex>11976</endIndex>
+        <startLine>286</startLine>
+        <startColumn>13</startColumn>
+        <endLine>286</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to ChangeChannelSettings must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>287</line>
+        <index>12003</index>
+        <endIndex>12023</endIndex>
+        <startLine>287</startLine>
+        <startColumn>13</startColumn>
+        <endLine>287</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>284</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>289</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>289</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AdsDisconnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>291</line>
+        <index>12156</index>
+        <endIndex>12168</endIndex>
+        <startLine>291</startLine>
+        <startColumn>13</startColumn>
+        <endLine>291</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
+        <context>Use the built-in type alias 'object' rather than Object or System.Object.</context>
+        <line>289</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>295</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>301</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: TcComVersion.</context>
+        <line>295</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>299</line>
+        <index>12341</index>
+        <endIndex>12348</endIndex>
+        <startLine>299</startLine>
+        <startColumn>17</startColumn>
+        <endLine>299</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcCOM_indexGroup must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>299</line>
+        <index>12365</index>
+        <endIndex>12380</endIndex>
+        <startLine>299</startLine>
+        <startColumn>41</startColumn>
+        <endLine>299</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcCOM_indexOffset must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>299</line>
+        <index>12383</index>
+        <endIndex>12399</endIndex>
+        <startLine>299</startLine>
+        <startColumn>59</startColumn>
+        <endLine>299</endLine>
+        <endColumn>75</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tmcVendorInfo_Name must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>299</line>
+        <index>12402</index>
+        <endIndex>12419</endIndex>
+        <startLine>299</startLine>
+        <startColumn>78</startColumn>
+        <endLine>299</endLine>
+        <endColumn>95</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tmcVersionedClassfactory_Name must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>299</line>
+        <index>12423</index>
+        <endIndex>12451</endIndex>
+        <startLine>299</startLine>
+        <startColumn>99</startColumn>
+        <endLine>299</endLine>
+        <endColumn>127</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>308</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>319</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the else statement must be wrapped in opening and closing curly brackets.</context>
+        <line>321</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>327</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>328</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to cts must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>310</line>
+        <index>12833</index>
+        <endIndex>12835</endIndex>
+        <startLine>310</startLine>
+        <startColumn>25</startColumn>
+        <endLine>310</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>334</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>339</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to cts must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>339</line>
+        <index>13714</index>
+        <endIndex>13716</endIndex>
+        <startLine>339</startLine>
+        <startColumn>21</startColumn>
+        <endLine>339</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to cts must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>338</line>
+        <index>13680</index>
+        <endIndex>13682</endIndex>
+        <startLine>338</startLine>
+        <startColumn>21</startColumn>
+        <endLine>338</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>343</line>
+        <index>13809</index>
+        <endIndex>13816</endIndex>
+        <startLine>343</startLine>
+        <startColumn>21</startColumn>
+        <endLine>343</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClientTaskValues must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>344</line>
+        <index>13853</index>
+        <endIndex>13870</endIndex>
+        <startLine>344</startLine>
+        <startColumn>21</startColumn>
+        <endLine>344</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>341</line>
+        <index>13751</index>
+        <endIndex>13758</endIndex>
+        <startLine>341</startLine>
+        <startColumn>21</startColumn>
+        <endLine>341</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to UI_Disconnected must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>347</line>
+        <index>13924</index>
+        <endIndex>13938</endIndex>
+        <startLine>347</startLine>
+        <startColumn>17</startColumn>
+        <endLine>347</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Stop_Scope must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>348</line>
+        <index>13960</index>
+        <endIndex>13969</endIndex>
+        <startLine>348</startLine>
+        <startColumn>17</startColumn>
+        <endLine>348</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>356</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelTcComStatus must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>361</line>
+        <index>14303</index>
+        <endIndex>14318</endIndex>
+        <startLine>361</startLine>
+        <startColumn>17</startColumn>
+        <endLine>361</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClient must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>361</line>
+        <index>14327</index>
+        <endIndex>14334</endIndex>
+        <startLine>361</startLine>
+        <startColumn>41</startColumn>
+        <endLine>361</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcCOM_indexGroup must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>361</line>
+        <index>14350</index>
+        <endIndex>14365</endIndex>
+        <startLine>361</startLine>
+        <startColumn>64</startColumn>
+        <endLine>361</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcCOM_indexOffset must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>361</line>
+        <index>14368</index>
+        <endIndex>14384</endIndex>
+        <startLine>361</startLine>
+        <startColumn>82</startColumn>
+        <endLine>361</endLine>
+        <endColumn>98</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to tcClientTaskValues must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>364</line>
+        <index>14471</index>
+        <endIndex>14488</endIndex>
+        <startLine>364</startLine>
+        <startColumn>17</startColumn>
+        <endLine>364</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to task_indexGroup must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>364</line>
+        <index>14495</index>
+        <endIndex>14509</endIndex>
+        <startLine>364</startLine>
+        <startColumn>41</startColumn>
+        <endLine>364</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to task_indexOffset must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>364</line>
+        <index>14512</index>
+        <endIndex>14527</endIndex>
+        <startLine>364</startLine>
+        <startColumn>58</startColumn>
+        <endLine>364</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to readStream must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>364</line>
+        <index>14530</index>
+        <endIndex>14539</endIndex>
+        <startLine>364</startLine>
+        <startColumn>76</startColumn>
+        <endLine>364</endLine>
+        <endColumn>85</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to readStream must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>365</line>
+        <index>14566</index>
+        <endIndex>14575</endIndex>
+        <startLine>365</startLine>
+        <startColumn>17</startColumn>
+        <endLine>365</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelSignalValue must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>366</line>
+        <index>14608</index>
+        <endIndex>14623</endIndex>
+        <startLine>366</startLine>
+        <startColumn>17</startColumn>
+        <endLine>366</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to reader must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>366</line>
+        <index>14632</index>
+        <endIndex>14637</endIndex>
+        <startLine>366</startLine>
+        <startColumn>41</startColumn>
+        <endLine>366</endLine>
+        <endColumn>46</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to cts must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>373</line>
+        <index>14858</index>
+        <endIndex>14860</endIndex>
+        <startLine>373</startLine>
+        <startColumn>21</startColumn>
+        <endLine>373</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to AdsDisconnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>374</line>
+        <index>14893</index>
+        <endIndex>14905</endIndex>
+        <startLine>374</startLine>
+        <startColumn>21</startColumn>
+        <endLine>374</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to cts must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>371</line>
+        <index>14805</index>
+        <endIndex>14807</endIndex>
+        <startLine>371</startLine>
+        <startColumn>21</startColumn>
+        <endLine>371</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>379</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnAdsConnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>381</line>
+        <index>15022</index>
+        <endIndex>15034</endIndex>
+        <startLine>381</startLine>
+        <startColumn>13</startColumn>
+        <endLine>381</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnAdsDisconnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>382</line>
+        <index>15066</index>
+        <endIndex>15081</endIndex>
+        <startLine>382</startLine>
+        <startColumn>13</startColumn>
+        <endLine>382</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer1 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>383</line>
+        <index>15112</index>
+        <endIndex>15123</endIndex>
+        <startLine>383</startLine>
+        <startColumn>13</startColumn>
+        <endLine>383</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer2 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>384</line>
+        <index>15154</index>
+        <endIndex>15165</endIndex>
+        <startLine>384</startLine>
+        <startColumn>13</startColumn>
+        <endLine>384</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer3 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>385</line>
+        <index>15196</index>
+        <endIndex>15207</endIndex>
+        <startLine>385</startLine>
+        <startColumn>13</startColumn>
+        <endLine>385</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer4 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>386</line>
+        <index>15238</index>
+        <endIndex>15249</endIndex>
+        <startLine>386</startLine>
+        <startColumn>13</startColumn>
+        <endLine>386</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer5 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>387</line>
+        <index>15280</index>
+        <endIndex>15291</endIndex>
+        <startLine>387</startLine>
+        <startColumn>13</startColumn>
+        <endLine>387</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>388</line>
+        <index>15322</index>
+        <endIndex>15337</endIndex>
+        <startLine>388</startLine>
+        <startColumn>13</startColumn>
+        <endLine>388</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>389</line>
+        <index>15369</index>
+        <endIndex>15386</endIndex>
+        <startLine>389</startLine>
+        <startColumn>13</startColumn>
+        <endLine>389</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>392</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the if statement must be wrapped in opening and closing curly brackets.</context>
+        <line>403</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsMustNotBeOmitted" ruleCheckId="SA1503">
+        <context>The body of the else statement must be wrapped in opening and closing curly brackets.</context>
+        <line>405</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnAdsConnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>394</line>
+        <index>15482</index>
+        <endIndex>15494</endIndex>
+        <startLine>394</startLine>
+        <startColumn>13</startColumn>
+        <endLine>394</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnAdsDisconnect must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>395</line>
+        <index>15525</index>
+        <endIndex>15540</endIndex>
+        <startLine>395</startLine>
+        <startColumn>13</startColumn>
+        <endLine>395</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer1 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>396</line>
+        <index>15572</index>
+        <endIndex>15583</endIndex>
+        <startLine>396</startLine>
+        <startColumn>13</startColumn>
+        <endLine>396</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer2 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>397</line>
+        <index>15615</index>
+        <endIndex>15626</endIndex>
+        <startLine>397</startLine>
+        <startColumn>13</startColumn>
+        <endLine>397</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer3 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>398</line>
+        <index>15658</index>
+        <endIndex>15669</endIndex>
+        <startLine>398</startLine>
+        <startColumn>13</startColumn>
+        <endLine>398</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer4 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>399</line>
+        <index>15701</index>
+        <endIndex>15712</endIndex>
+        <startLine>399</startLine>
+        <startColumn>13</startColumn>
+        <endLine>399</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to btnTcComVer5 must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>400</line>
+        <index>15744</index>
+        <endIndex>15755</endIndex>
+        <startLine>400</startLine>
+        <startColumn>13</startColumn>
+        <endLine>400</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>401</line>
+        <index>15787</index>
+        <endIndex>15802</endIndex>
+        <startLine>401</startLine>
+        <startColumn>13</startColumn>
+        <endLine>401</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>403</line>
+        <index>15880</index>
+        <endIndex>15897</endIndex>
+        <startLine>403</startLine>
+        <startColumn>17</startColumn>
+        <endLine>403</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxAdsLocal must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>402</line>
+        <index>15837</index>
+        <endIndex>15852</endIndex>
+        <startLine>402</startLine>
+        <startColumn>17</startColumn>
+        <endLine>402</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to comboBoxAdsTargets must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>405</line>
+        <index>15951</index>
+        <endIndex>15968</endIndex>
+        <startLine>405</startLine>
+        <startColumn>17</startColumn>
+        <endLine>405</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelTcComStatus must begin with the 'this.', 'base.', 'object.' or 'CppOnlineDash.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>406</line>
+        <index>15999</index>
+        <endIndex>16014</endIndex>
+        <startLine>406</startLine>
+        <startColumn>13</startColumn>
+        <endLine>406</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Form1.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/10/16 15:38:50.472</styleCop>
+      <settingsFile>2019/10/16 15:38:50.452</settingsFile>
+      <sourceFile>2019/10/16 14:02:24.893</sourceFile>
+      <parser>2019/10/16 15:38:50.472</parser>
+      <StyleCop.CSharp.DocumentationRules>2019/10/16 15:38:50.472</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1871068100</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2019/10/16 15:38:50.472</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainBlankLinesAtEndOfFile" ruleCheckId="SA1518">
+        <context>The code must not contain blank lines at the end of the file.</context>
+        <line>256</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>256</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="PartialElementsMustBeDocumented" ruleCheckId="SA1601">
+        <context>The partial class element must have a documentation header containing either a summary tag or a content tag.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>238</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>239</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>240</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>241</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>242</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>243</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>244</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>245</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>246</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>247</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>248</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>249</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>250</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>251</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>252</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>253</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to components must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>18</line>
+        <index>597</index>
+        <endIndex>606</endIndex>
+        <startLine>18</startLine>
+        <startColumn>17</startColumn>
+        <endLine>18</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to components must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>16</line>
+        <index>544</index>
+        <endIndex>553</endIndex>
+        <startLine>16</startLine>
+        <startColumn>31</startColumn>
+        <endLine>16</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>238</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>239</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>240</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>241</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>242</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>243</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>244</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>245</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>246</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>247</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>248</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>249</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>250</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>251</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>252</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>253</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Settings.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/10/16 15:38:50.472</styleCop>
+      <settingsFile>2019/10/16 15:38:50.452</settingsFile>
+      <sourceFile>2019/10/15 10:18:30.299</sourceFile>
+      <parser>2019/10/16 15:38:50.472</parser>
+      <StyleCop.CSharp.DocumentationRules>2019/10/16 15:38:50.472</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1871068100</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2019/10/16 15:38:50.472</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2019/10/16 15:38:50.472</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2019/10/16 15:38:50.472</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
