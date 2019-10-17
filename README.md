@@ -1,6 +1,5 @@
 
-
-![Capture](Pics\Capture.gif)
+![Capture](./Pics/Capture.gif)
 
 
 
