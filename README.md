@@ -12,10 +12,8 @@ The modules themselves are not included in this repo, as to avoid the certificat
 
 ## Prerequisites
 
-Below I two systems are listed; the engineering and target. These can be the same system, but the target will be whatever system is running TwinCAT XAR, and the engineering is whatever system is running the WinForms application + XAE environment.
-
 * The engineering system running the WinForms application needs a full (or trial) TE1300 Scope Professional license generated
-* The target system will need a TF3300 Scope View and TC1300 C++ trial license
+* The target system will need a TF3300 Scope View, and TC1300 C++ trial license or Simulink trial
 
 ## Running the App
 
