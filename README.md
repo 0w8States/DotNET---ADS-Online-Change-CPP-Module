@@ -25,6 +25,11 @@ Located here: https://gitlab.com/0w8States/cpp-fourier-series-online-changeable
 
 ## Edits to Form1.cs
 
+The main edit will be the string for the LibraryID version that is transmitted over ADS. For this demo, the full string looked similar to this:
+```CSharp
+"C++ Module Vendor|CPPVP1|0.0.0.1"
+```
+
 * tcCOM_indexGroup
 
 This is the Index for the TcCOM object you will be controlling inside TwinCAT    
