@@ -26,8 +26,29 @@ Below I two systems are listed; the engineering and target. These can be the sam
 ## Edits to Form1.cs
 
 * tcCOM_indexGroup
+
+This is the Index for the TcCOM object you will be controlling inside TwinCAT    
+
 * tcCOM_indexOffset
+
+This is the Offset for the TcCOM object you will be controlling inside TwinCAT
+
 * task_indexGroup
+
+This is the Index for the ADS symbol you would like displayed on Scope, needs to be an LREAL
+
 * task_indexOffset
+
+This is the Offset for the ADS symbol you would like displayed on Scope, needs to be an LREAL
+
 * tmcVendorInfo_Name
+
+Vendor Name located inside the TMC file for the TcCOM
+
 * tmcVersionedClassfactory_Name
+
+Vendor Class Factory located inside the TMC file for the TcCOM
+
+* TcComVersion
+
+This string needs to be replaced for the method _writeTcComModuleVersion for the various button presses, based on your version numbers
