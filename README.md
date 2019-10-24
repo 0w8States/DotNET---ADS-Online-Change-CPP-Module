@@ -4,11 +4,11 @@
 
 # Scripting of Online Changeable Modules
 
-With the new build of 4024 TwinCAT, the ability to change TcCom modules 'on the fly' was introduced. This can be automated outside TwinCAT to some extent, by directly sending an ADS command with the LibrayID parameter for the new version. The one chore that needs completion before changing the modules is the distribution of the Repository files, and the appropriate x64/x86 tmx file, to the targets boot folder.
+With the new build of 4024 TwinCAT, the ability to change TcCom modules 'on the fly' was introduced. This can be automated outside TwinCAT to some extent, by directly sending an ADS command with the LibrayID parameter for the new version. The one chore that needs completion before changing the modules is the distribution of the Repository files, and the appropriate x64/x86 tmx file, to the targets boot folder. However, the Repository distribution is fairly easy via XAE; simply apply the new TcCOM version at least once, and it'll deploy the correct files to the target.
 
 In the sample within this repo, I've included a simple WinForms C# application for controlling five pre-build modules. Each module has its own signal output, and it's on unique settings, to provide a different signal within each version.
 
-The modules themselves are not included, as to avoid the certificate distribution process. Running the application is possible, but you will want to change the LibraryID string that is sent over ADS.
+The modules themselves are not included in this repo, as to avoid the certificate distribution process. Running the application is possible, but you will want to change the LibraryID string that is sent over ADS.
 
 ## Prerequisites
 
