@@ -8,6 +8,7 @@ With the new build of 4024 TwinCAT, the ability to change TcCom modules 'on the 
 
 In the sample within this repo, I've included a simple WinForms C# application for controlling five pre-build modules. Each module has its own signal output, and it's on unique settings, to provide a different signal within each version.
 
+The modules themselves are not included, as to avoid the certificate distribution process. Running the application is possible, but you will want to change the LibraryID string that is sent over ADS.
 
 ## Prerequisites
 
@@ -15,21 +16,10 @@ Below I two systems are listed; the engineering and target. These can be the sam
 
 * The engineering system running the WinForms application needs a full (or trial) TE1300 Scope Professional license generated
 * The target system will need a TF3300 Scope View and TC1300 C++ trial license
-* The target system will need to be set up in Test Signing Mode for the TcCom drivers to start properly
-* The target system will require the contents of the XAR folder from this repository copied to C:\TwinCAT\3.1\Boot\Repository
-* The engineering system will require the contents of the XAE folder from this repository copied to C:\TwinCAT\3.1\Repository
-
-It's important to note that the XAR deployment files are built for x64, so this may not work with all systems. In this case, you can manually generate these files by 'Applying' each version of the module manually to the target after Step 4 below.
-
-
 
 ## Running the App
 
-1. Start new TwinCAT XAE project
-2. Right-click TcCom objects and select the reload TMC option
-3. Right-click TcCom objects, Add New, select the SignalsDemo module v0.0.0.1
-4. Activate Configuration on the target
+1. Start new TwinCAT XAE project and build your TcCOM Modules
+2. Find the LibraryID string from the TcCOM module for each version
+4. Replace the ADS write string command in the WinForms application to push your LibraryID
 5. Start WinForms project and connect to the target
-
-(You can also change the modules via XAE from TcCom Objects -> Online Changables tab -> Right-click and Apply version)
-
