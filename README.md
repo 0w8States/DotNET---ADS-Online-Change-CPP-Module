@@ -20,6 +20,14 @@ Below I two systems are listed; the engineering and target. These can be the sam
 ## Running the App
 
 1. Start new TwinCAT XAE project and build your TcCOM Modules
-2. Find the LibraryID string from the TcCOM module for each version
-4. Replace the ADS write string command in the WinForms application to push your LibraryID
-5. Start WinForms project and connect to the target
+2. Read the Edits section below, and modify the specified values in the Form1.cs for the WinForms Application
+3. Start WinForms project and connect to the target
+
+## Edits to Form1.cs
+
+* tcCOM_indexGroup
+* tcCOM_indexOffset
+* task_indexGroup
+* task_indexOffset
+* tmcVendorInfo_Name
+* tmcVersionedClassfactory_Name
