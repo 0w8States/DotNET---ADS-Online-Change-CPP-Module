@@ -8,8 +8,7 @@ With the new build of 4024 TwinCAT, the ability to change TcCom modules 'on the 
 
 In the sample within this repo, I've included a simple WinForms C# application for controlling five pre-build modules. Each module has its own signal output, and it's on unique settings, to provide a different signal within each version.
 
-The modules themselves are not included in this repo, as to avoid the certificate distribution process. Running the application is possible, but you will want to change the LibraryID string that is sent over ADS.
-
+The modules themselves are not included in this repo, as to avoid the certificate distribution process. Running the application is possible, but you will want to change the LibraryID string that is sent over ADS. To get a similar TcCOM to the one used for the image, see my Fourier Series TwinCAT CPP project located here: https://gitlab.com/0w8States/cpp-fourier-series-online-changeable
 ## Prerequisites
 
 * The engineering system running the WinForms application needs a full (or trial) TE1300 Scope Professional license generated
