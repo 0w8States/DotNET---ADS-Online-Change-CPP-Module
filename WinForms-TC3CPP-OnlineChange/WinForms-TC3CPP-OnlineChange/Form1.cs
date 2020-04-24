@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="TizenGalaxyWatch_IoTSingleAxisController.cs" company="John Helfrich">
+// <copyright file="Form1.cs" company="John Helfrich">
 //      Copyright (c) John Helfrich. MIT License
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
